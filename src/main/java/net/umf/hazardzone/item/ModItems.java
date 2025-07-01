@@ -26,13 +26,32 @@ public class ModItems {
 
 
     public static final DeferredItem<Item> FLAREGUN = ITEMS.register("flaregun",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.hazardzone.flaregun.tooltip"));
+
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            }
+
+
+    );
 
     public static final DeferredItem<Item> HEALTHKIT = ITEMS.register("healthkit",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()){
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.hazardzone.healthkit.tooltip"));
+
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            }
+    );
 
     public static final DeferredItem<Item> HAZARDOUS = ITEMS.register("hazardous",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties())
+    );
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

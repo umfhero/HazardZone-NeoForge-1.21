@@ -1,10 +1,14 @@
 {
 
-  "creativetab.hazardzone_items": "Hazard Zone Tab",
+  "creativetab.hazardzone_items": "Hazard Items",
   "item.hazardzone.crowbar": "Crowbar",
   "item.hazardzone.flaregun": "Flare Gun",
   "item.hazardzone.healthkit": "Health Kit",
   "item.hazardzone.hazardous": "Hazardous",
   "block.hazardzone.rusty_block": "Rusty Block",
-  "tooltip.hazardzone.crowbar.tooltip": "wow"
+
+
+  "tooltip.hazardzone.crowbar.tooltip": "Item used to xyz",
+  "tooltip.hazardzone.healthkit.tooltip": "A rare consumable, used to get rid of the plague effect.",
+  "tooltip.hazardzone.flaregun.tooltip": "Item used to mark nearby hostile mobs in a 16 block range of the flare"
 }
