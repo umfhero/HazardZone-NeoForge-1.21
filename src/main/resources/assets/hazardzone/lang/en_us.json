@@ -1,5 +1,8 @@
 {
   "itemGroup.examplemod": "Example Mod Tab",
   "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item"
+  "item.examplemod.example_item": "Example Item",
+  "creativetab.hazardzone_items": "Hazard Zone Tab",
+  "item.hazardzone.crowbar": "Crowbar",
+  "tooltip.hazardzone.crowbar.tooltip": "wow"
 }
