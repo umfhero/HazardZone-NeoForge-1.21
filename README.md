@@ -77,7 +77,7 @@ Everything is still subject to design iteration.
   - Flare Gun  
   - Health Kit  
   - Rusty Block  
-
+<img src="src/main/resources/assets/hazardzone/picsgithub/items.png" alt="HazardMod Logo" width="350">
 ---
 
 ### [0.0.1] - Initial Project Setup
