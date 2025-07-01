@@ -1,7 +1,5 @@
 <div align="center">
 
-<br>
-
 <img src="src/main/resources/assets/hazardzone/textures/item/file_7.png" alt="HazardMod Logo" width="300">
 
 <br>
@@ -16,7 +14,9 @@
 <br>
 
 
-<br><br>
+
+
+
 
 **HazardMod** is a WIP Minecraft mod for NeoForge 1.21 focused on post-apocalyptic themes, mutation systems, and hazardous environments. The core design is open-ended and evolving. Expect experiments with custom mobs, dangerous biomes, gear progression, and contamination mechanics.
 
@@ -24,10 +24,13 @@
 
 <br><br><br>
 
-# ☣️ Concept Overview
+# Concept Overview
+
 
 > [!NOTE]
 > This mod is still in its early development stage. All content is subject to change. Features, items, and names are placeholders or prototypes.
+> 
+
 
 HazardMod is being built as a flexible framework for mutant survival gameplay. Current plans may include:
 
@@ -59,8 +62,8 @@ Everything is still subject to design iteration.
 
 *(All visuals below are temporary or concept only)*
 
-<img src="src/main/resources/assets/hazardmod/pics (github)/concept1.png" width="500">
-<img src="src/main/resources/assets/hazardmod/pics (github)/concept2.png" width="500">
+<img src="src/main/resources/assets/hazardzone/picsgithub/logo.png" alt="HazardMod Logo" width="350">
+
 
 ---
 
