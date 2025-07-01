@@ -20,7 +20,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.CROWBAR.get());
-
+        basicItem(ModItems.FLAREGUN.get());
+        basicItem(ModItems.HEALTHKIT.get());
+        basicItem(ModItems.HAZARDOUS.get());
     }
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/button_inventory"))

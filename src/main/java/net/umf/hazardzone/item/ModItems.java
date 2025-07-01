@@ -25,6 +25,15 @@ public class ModItems {
             });
 
 
+    public static final DeferredItem<Item> FLAREGUN = ITEMS.register("flaregun",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> HEALTHKIT = ITEMS.register("healthkit",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> HAZARDOUS = ITEMS.register("hazardous",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

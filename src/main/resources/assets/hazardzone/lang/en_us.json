@@ -2,6 +2,9 @@
 
   "creativetab.hazardzone_items": "Hazard Zone Tab",
   "item.hazardzone.crowbar": "Crowbar",
+  "item.hazardzone.flaregun": "Flare Gun",
+  "item.hazardzone.healthkit": "Health Kit",
+  "item.hazardzone.hazardous": "Hazardous",
   "block.hazardzone.rusty_block": "Rusty Block",
   "tooltip.hazardzone.crowbar.tooltip": "wow"
 }

@@ -16,9 +16,11 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HazardZone.MOD_ID);
 
     public static final Supplier<CreativeModeTab> HAZARDZONE_ITEMS_TAB = CREATIVE_MODE_TAB.register("hazard_items_tab", () -> CreativeModeTab.builder()
-            .icon(() -> new ItemStack(ModItems.CROWBAR.get())).title(Component.translatable("creativetab.hazardzone_items"))
+            .icon(() -> new ItemStack(ModItems.HAZARDOUS.get())).title(Component.translatable("creativetab.hazardzone_items"))
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.CROWBAR);
+                output.accept(ModItems.FLAREGUN);
+                output.accept(ModItems.HEALTHKIT);
                 output.accept(ModBlocks.RUSTY_BLOCK);
 
             }).build());
