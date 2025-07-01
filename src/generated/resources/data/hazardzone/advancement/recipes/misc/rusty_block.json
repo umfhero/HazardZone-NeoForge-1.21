@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crowbar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hazardzone:crowbar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hazardzone:rusty_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crowbar"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hazardzone:rusty_block"
+    ]
+  }
+}
