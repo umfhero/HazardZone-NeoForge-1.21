@@ -9,6 +9,7 @@ import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.umf.hazardzone.HazardZone;
+import net.umf.hazardzone.block.ModBlocks;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -17,10 +18,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(HazardZone.RUSTY_BLOCK);
-
-
-
+        blockWithItem(ModBlocks.RUSTY_BLOCK);
     }
 
 

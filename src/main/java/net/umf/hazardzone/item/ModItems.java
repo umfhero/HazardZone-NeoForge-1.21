@@ -24,9 +24,6 @@ public class ModItems {
                 }
             });
 
-    public static final DeferredItem<Item> WOOD_DUST = ITEMS.register("wood_dust",
-            () -> new Item(new Item.Properties()));
-
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

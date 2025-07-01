@@ -2,12 +2,9 @@ package net.umf.hazardzone.datagen;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
-
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.umf.hazardzone.HazardZone;
+import net.umf.hazardzone.block.ModBlocks;
 
 import java.util.Set;
 
@@ -18,14 +15,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider{
 
     @Override
     protected void generate() {
-
-        dropSelf(HazardZone.RUSTY_BLOCK.get());
-
-
+        dropSelf(ModBlocks.RUSTY_BLOCK.get());
     }
 
     @Override
     protected Iterable<Block> getKnownBlocks() {
-        return HazardZone.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
+        return ModBlocks.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
     }
 }

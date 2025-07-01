@@ -1,5 +1,6 @@
 package net.umf.hazardzone;
 
+import net.umf.hazardzone.block.ModBlocks;
 import net.umf.hazardzone.item.ModCreativeModeTabs;
 import net.umf.hazardzone.item.ModItems;
 import org.slf4j.Logger;
@@ -18,25 +19,21 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.minecraft.client.Minecraft;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.ModContainer;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.config.ModConfig;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(HazardZone.MOD_ID)
 public class HazardZone {
     public static final String MOD_ID = "hazardzone";
     private static final Logger LOGGER = LogUtils.getLogger();
+
+    // Static references for easy access in datagen
+    public static final DeferredRegister.Blocks BLOCKS = ModBlocks.BLOCKS;
+    public static final DeferredRegister.Items ITEMS = ModItems.ITEMS;
+
+    // Easy access to specific items/blocks for datagen
+    public static final net.neoforged.neoforge.registries.DeferredBlock<net.minecraft.world.level.block.Block> RUSTY_BLOCK = ModBlocks.RUSTY_BLOCK;
+    public static final net.neoforged.neoforge.registries.DeferredItem<net.minecraft.world.item.Item> CROWBAR = ModItems.CROWBAR;
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
