@@ -9,9 +9,9 @@
 ![Status](https://img.shields.io/badge/status-WIP-yellow)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21-green)
 ![Mod Loader](https://img.shields.io/badge/ModLoader-NeoForge-blueviolet)
-![Commits](https://img.shields.io/github/commit-activity/w/yourusername/HazardMod-1.21)
-![Last commit](https://img.shields.io/github/last-commit/yourusername/HazardMod-1.21)
-![Issues](https://img.shields.io/github/issues/yourusername/HazardMod-1.21)
+![Commits](https://img.shields.io/github/commit-activity/w/umfhero/NeoForge-HazardZone-1.21)
+![Last commit](https://img.shields.io/github/last-commit/umfhero/NeoForge-HazardZone-1.21)
+![Issues](https://img.shields.io/github/issues/umfhero/NeoForge-HazardZone-1.21)
 
 <br>
 
