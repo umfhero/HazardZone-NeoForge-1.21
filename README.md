@@ -2,7 +2,7 @@
 
 <br>
 
-<img src="src/main/resources/assets/hazardmod/pics (github)/HazardModLogo.png" alt="HazardMod Logo" width="600">
+<img src="src/main/resources/assets/hazardzone/textures/item/hazarrdus.png" alt="HazardMod Logo" width="600">
 
 <br>
 
