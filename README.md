@@ -63,11 +63,22 @@ Everything is still subject to design iteration.
 *(All visuals below are temporary or concept only)*
 
 <img src="src/main/resources/assets/hazardzone/picsgithub/logo.png" alt="HazardMod Logo" width="350">
-
+<img src="src/main/resources/assets/hazardzone/picsgithub/creativetab.png" alt="HazardMod Logo" width="350">
 
 ---
 
 # Changelog
+
+### [1.0.0] - Tab and Items Setup
+- Added custom Creative Mode tab  
+- Tab icon uses the **hazardous item** texture (note: hazardous item not included in tab)  
+- Tab includes the following items:  
+  - Crowbar  
+  - Flare Gun  
+  - Health Kit  
+  - Rusty Block  
+
+---
 
 ### [0.0.1] - Initial Project Setup
 - Established mod structure and Gradle config  
@@ -75,7 +86,6 @@ Everything is still subject to design iteration.
 - Placeholder mob and zone testing  
 - GitHub repo, project details  
 
----
 
 ## 📥 Installation
 
