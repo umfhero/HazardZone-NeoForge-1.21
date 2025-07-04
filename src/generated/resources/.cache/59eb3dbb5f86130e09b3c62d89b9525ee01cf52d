@@ -1,2 +1,8 @@
-// 1.21	2025-07-01T19:40:35.5089585	Loot Tables
+// 1.21	2025-07-04T02:02:32.6755156	Loot Tables
+5cbb79c41f9b3a97172d005e75d3c45c526b6b44 data/hazardzone/loot_table/blocks/iron_grate.json
+c4252c2de24a000efeb49bd900456cb70116d8c4 data/hazardzone/loot_table/blocks/iron_scaffold.json
+d5e5f57f914e3fd2e8b883c01cd9622cb456502a data/hazardzone/loot_table/blocks/rusted_iron_grate.json
+330eb68708654e63513448cce142e62921761410 data/hazardzone/loot_table/blocks/rusted_iron_scaffold.json
 a49265aec9f55d32260357f9b12b8baac1dfcac6 data/hazardzone/loot_table/blocks/rusty_block.json
+fa449bcc4bcfda66127b498e6129dd38101be117 data/hazardzone/loot_table/blocks/weathered_iron_grate.json
+2337b49dd3748d88d9962dd36594673f7cc75f79 data/hazardzone/loot_table/blocks/weathered_iron_scaffold.json

@@ -6,6 +6,12 @@
   "item.hazardzone.healthkit": "Health Kit",
   "item.hazardzone.hazardous": "Hazardous",
   "block.hazardzone.rusty_block": "Rusty Block",
+  "block.hazardzone.iron_grate": "Iron Grate",
+  "block.hazardzone.iron_scaffold": "Iron Scaffold",
+  "block.hazardzone.rusted_iron_grate": "Rusted Iron Grate",
+  "block.hazardzone.rusted_iron_scaffold": "Rusted Iron Scaffold",
+  "block.hazardzone.weathered_iron_grate": "Weathered Iron Grate",
+  "block.hazardzone.weathered_iron_scaffold": "Weathered Iron Scaffold",
 
 
   "tooltip.hazardzone.crowbar.tooltip": "Item used to xyz",

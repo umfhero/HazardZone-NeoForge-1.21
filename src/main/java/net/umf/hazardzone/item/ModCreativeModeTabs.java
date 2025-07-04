@@ -22,6 +22,12 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.FLAREGUN);
                 output.accept(ModItems.HEALTHKIT);
                 output.accept(ModBlocks.RUSTY_BLOCK);
+                output.accept(ModBlocks.IRON_GRATE);
+                output.accept(ModBlocks.IRON_SCAFFOLD);
+                output.accept(ModBlocks.RUSTED_IRON_GRATE);
+                output.accept(ModBlocks.RUSTED_IRON_SCAFFOLD);
+                output.accept(ModBlocks.WEATHERED_IRON_GRATE);
+                output.accept(ModBlocks.WEATHERED_IRON_SCAFFOLD);
 
             }).build());
 

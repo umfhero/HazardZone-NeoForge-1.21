@@ -22,6 +22,12 @@ public class ModBlockTagProvider extends BlockTagsProvider{
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.RUSTY_BLOCK.get());
+                .add(ModBlocks.RUSTY_BLOCK.get())
+                .add(ModBlocks.IRON_GRATE.get())
+                .add(ModBlocks.IRON_SCAFFOLD.get())
+                .add(ModBlocks.RUSTED_IRON_GRATE.get())
+                .add(ModBlocks.RUSTED_IRON_SCAFFOLD.get())
+                .add(ModBlocks.WEATHERED_IRON_GRATE.get())
+                .add(ModBlocks.WEATHERED_IRON_SCAFFOLD.get());
     }
 }

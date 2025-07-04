@@ -1,5 +1,11 @@
 {
   "values": [
-    "hazardzone:rusty_block"
+    "hazardzone:rusty_block",
+    "hazardzone:iron_grate",
+    "hazardzone:iron_scaffold",
+    "hazardzone:rusted_iron_grate",
+    "hazardzone:rusted_iron_scaffold",
+    "hazardzone:weathered_iron_grate",
+    "hazardzone:weathered_iron_scaffold"
   ]
 }

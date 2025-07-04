@@ -28,6 +28,24 @@ public class ModBlocks {
 
 
 
+    public static final DeferredBlock<Block> IRON_GRATE = registerBlock("iron_grate",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(4f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<Block> IRON_SCAFFOLD = registerBlock("iron_scaffold",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(4f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<Block> RUSTED_IRON_GRATE = registerBlock("rusted_iron_grate",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<Block> RUSTED_IRON_SCAFFOLD = registerBlock("rusted_iron_scaffold",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<Block> WEATHERED_IRON_GRATE = registerBlock("weathered_iron_grate",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(2.5f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<Block> WEATHERED_IRON_SCAFFOLD = registerBlock("weathered_iron_scaffold",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(2.5f).requiresCorrectToolForDrops().noOcclusion()));
+
     public static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name,block);
         registerBlockItem(name, toReturn);
@@ -44,4 +62,3 @@ public class ModBlocks {
     }
 
 }
-

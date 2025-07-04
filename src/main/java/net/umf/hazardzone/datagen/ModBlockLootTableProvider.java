@@ -16,6 +16,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider{
     @Override
     protected void generate() {
         dropSelf(ModBlocks.RUSTY_BLOCK.get());
+        dropSelf(ModBlocks.IRON_GRATE.get());
+        dropSelf(ModBlocks.IRON_SCAFFOLD.get());
+        dropSelf(ModBlocks.RUSTED_IRON_GRATE.get());
+        dropSelf(ModBlocks.RUSTED_IRON_SCAFFOLD.get());
+        dropSelf(ModBlocks.WEATHERED_IRON_GRATE.get());
+        dropSelf(ModBlocks.WEATHERED_IRON_SCAFFOLD.get());
     }
 
     @Override
